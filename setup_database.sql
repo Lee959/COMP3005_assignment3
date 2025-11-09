@@ -13,7 +13,3 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
      ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
      ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
 
--- Retrieves and displays all records from the students table
-SELECT
-    student_id, first_name, last_name, email, enrollment_date
-    FROM students
