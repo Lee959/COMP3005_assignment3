@@ -156,27 +156,26 @@ public class ConnectStudentDatabase {
             // Load PostgreSQL JDBC Driver
             Class.forName("org.postgresql.Driver");
 
-            // 1. Display all students
+//             1. Display all students
             System.out.println("All Students:");
             getAllStudents();
 
 
-            // 2. Add a new student
+//             2. Add a new student
             System.out.println("\nAdding a new student:");
-//            addStudent("Kristen", "Leee", "KristenLeeee@tester.com", LocalDate.now());
-            addStudent("Jane", "Smith", "jane.smith@example.com", LocalDate.of(2023,9,1));
+            addStudent("Kristen", "Leee", "KristenLeeee@tester.com", LocalDate.now());
             System.out.println("All Students after addition:");
             getAllStudents();
 
 
-            // 3. Update a student's email
+//             3. Update a student's email
             System.out.println("\nUpdating student email:");
             updateStudentEmail(1, "john.doe.updated@example.com");
             System.out.println("All Students after email update:");
             getAllStudents();
 
 
-            // 4. Delete a student
+//              4. Delete a student
             System.out.println("\nDeleting a student:");
             deleteStudent(4);
             System.out.println("All Students after deletion:");
