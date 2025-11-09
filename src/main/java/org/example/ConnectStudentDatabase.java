@@ -170,14 +170,14 @@ public class ConnectStudentDatabase {
 
 //             3. Update a student's email
             System.out.println("\nUpdating student email:");
-            updateStudentEmail(1, "john.doe.updated@example.com");
+            updateStudentEmail(1, "john.doe.updated@12321321.com");
             System.out.println("All Students after email update:");
             getAllStudents();
 
 
 //              4. Delete a student
             System.out.println("\nDeleting a student:");
-            deleteStudent(4);
+            deleteStudent(1);
             System.out.println("All Students after deletion:");
             getAllStudents();
 
